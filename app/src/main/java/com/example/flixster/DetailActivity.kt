@@ -71,8 +71,7 @@ class DetailActivity : YouTubeBaseActivity() {
                 p2: Boolean
             ) {
                 Log.i(TAG, "onInitializationSuccess")
-                player?.cueVideo("youtubeKey")
-                TODO("Not yet implemented")
+                player?.cueVideo(youtubeKey)
             }
             override fun onInitializationFailure(
                 p0: YouTubePlayer.Provider?,
