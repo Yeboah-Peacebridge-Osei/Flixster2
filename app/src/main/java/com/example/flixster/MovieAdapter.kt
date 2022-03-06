@@ -46,7 +46,6 @@ class MovieAdapter(private val context: Context, private val movies: List<Movie>
         }
 
         override fun onClick(p0: View?) {
-            TODO("Not yet implemented")
             //1. Get notified on thwe movie that was tapped on
             val movie = movies[adapterPosition]
             Toast.makeText(context,"movie.title", Toast.LENGTH_SHORT).show()
